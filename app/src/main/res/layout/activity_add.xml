@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_height="50dp"
+        android:text="Ten sinh vien muon them" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingStart="12dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="VD: Nguyen Van A"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="Nhap ma so sinh vien" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:paddingStart="12dp"
+        android:background="@drawable/edit_text_background"
+        android:inputType="text"
+        android:layout_marginBottom="8dp"
+        android:hint="VD: SV007"
+        android:layout_margin="8dp"/>
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Add"
+        android:layout_margin="8dp"
+        android:background="@drawable/edit_text_background"
+        android:backgroundTint="@color/teal_200"/>
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="360dp"
+    android:layout_margin="4dp"
+    android:background="@color/white"
+    android:padding="16dp">
+
+
+
+    <TextView
+        android:id="@+id/textView_1"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_height="50dp"
+        android:text="Thay doi ten sinh vien" />
+
+    <EditText
+        android:id="@+id/editTextText_1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingStart="12dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="VD: Nguyen Van A" />
+
+    <TextView
+        android:id="@+id/textView_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="Thay doi ma so sinh vien" />
+
+    <EditText
+        android:id="@+id/editTextText_2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:paddingStart="12dp"
+        android:background="@drawable/edit_text_background"
+        android:inputType="text"
+        android:hint="VD: SV007" />
+
+    <Button
+        android:id="@+id/btnchange"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edit_text_background"
+        android:backgroundTint="@color/teal_200"
+        android:text="Change" />
+
+
+</LinearLayout>
